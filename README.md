@@ -1,16 +1,16 @@
 # Advanced-NLP-G5-A1
 The code was carried out by Yeshan Wang during the course ‘Advanced NLP' taught by Luis Morgado da Costa and Jose Angel Daza at VU Amsterdam.
 
-## REQUIREMENTS
+## Data
+The folder [**data**](https://github.com/Yeshan-Wang/Advanced-NLP-G5-A1/tree/main/data) contains the small set of English data in 'article.txt' is obtained from  https://nltimes.nl/2023/02/10/dutch-universities-still-struggling-uncover-work-written-chatgpt
+
+## Code
+### REQUIREMENTS
 - NLTK 3.7
 - SpaCy 3.3
 - NetworkX 2.7
 - Pandas 1.5
 
-## Data
-The folder [**data**](https://github.com/Yeshan-Wang/Advanced-NLP-G5-A1/tree/main/data) contains the small set of English data in 'article.txt' is obtained from  https://nltimes.nl/2023/02/10/dutch-universities-still-struggling-uncover-work-written-chatgpt
-
-## Code
 ### feature_extraction.ipynb
 The notebook extracts several syntactic features from the original set of English data in 'article.txt' and save as corresponding conll files in the data directory:
 - data/token-level-features.conll
