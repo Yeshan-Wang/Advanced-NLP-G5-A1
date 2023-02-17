@@ -1,0 +1,393 @@
+token	constituent	head	dependent	dependency	POS
+Universities	['Universities', 'in', 'the', 'Netherlands']	looking	['in']	nsubj	NOUN
+in	['in', 'the', 'Netherlands']	Universities	['Netherlands']	prep	ADP
+the	['the']	Netherlands	[]	det	DET
+Netherlands	['the', 'Netherlands']	in	['the']	pobj	PROPN
+are	['are']	looking	[]	aux	AUX
+looking	['Universities', 'in', 'the', 'Netherlands', 'are', 'looking', 'for', 'ways', 'to', 'demonstrate', 'when', 'students', 'are', 'guilty', 'of', 'using', 'ChatGPT', ',', 'software', 'that', 'uses', 'artificial', 'intelligence', 'to', 'write', 'pieces', 'of', 'text', '.']	looking	['Universities', 'are', 'for', '.']	ROOT	VERB
+for	['for', 'ways', 'to', 'demonstrate', 'when', 'students', 'are', 'guilty', 'of', 'using', 'ChatGPT', ',', 'software', 'that', 'uses', 'artificial', 'intelligence', 'to', 'write', 'pieces', 'of', 'text']	looking	['ways']	prep	ADP
+ways	['ways', 'to', 'demonstrate', 'when', 'students', 'are', 'guilty', 'of', 'using', 'ChatGPT', ',', 'software', 'that', 'uses', 'artificial', 'intelligence', 'to', 'write', 'pieces', 'of', 'text']	for	['demonstrate']	pobj	NOUN
+to	['to']	demonstrate	[]	aux	PART
+demonstrate	['to', 'demonstrate', 'when', 'students', 'are', 'guilty', 'of', 'using', 'ChatGPT', ',', 'software', 'that', 'uses', 'artificial', 'intelligence', 'to', 'write', 'pieces', 'of', 'text']	ways	['to', 'are']	relcl	VERB
+when	['when']	are	[]	advmod	SCONJ
+students	['students']	are	[]	nsubj	NOUN
+are	['when', 'students', 'are', 'guilty', 'of', 'using', 'ChatGPT', ',', 'software', 'that', 'uses', 'artificial', 'intelligence', 'to', 'write', 'pieces', 'of', 'text']	demonstrate	['when', 'students', 'guilty']	ccomp	AUX
+guilty	['guilty', 'of', 'using', 'ChatGPT', ',', 'software', 'that', 'uses', 'artificial', 'intelligence', 'to', 'write', 'pieces', 'of', 'text']	are	['of']	acomp	ADJ
+of	['of', 'using', 'ChatGPT', ',', 'software', 'that', 'uses', 'artificial', 'intelligence', 'to', 'write', 'pieces', 'of', 'text']	guilty	['using']	prep	ADP
+using	['using', 'ChatGPT', ',', 'software', 'that', 'uses', 'artificial', 'intelligence', 'to', 'write', 'pieces', 'of', 'text']	of	['software']	pcomp	VERB
+ChatGPT	['ChatGPT', ',']	software	[',']	nmod	PROPN
+,	[',']	ChatGPT	[]	punct	PUNCT
+software	['ChatGPT', ',', 'software', 'that', 'uses', 'artificial', 'intelligence', 'to', 'write', 'pieces', 'of', 'text']	using	['ChatGPT', 'uses']	dobj	NOUN
+that	['that']	uses	[]	nsubj	PRON
+uses	['that', 'uses', 'artificial', 'intelligence', 'to', 'write', 'pieces', 'of', 'text']	software	['that', 'intelligence', 'write']	relcl	VERB
+artificial	['artificial']	intelligence	[]	amod	ADJ
+intelligence	['artificial', 'intelligence']	uses	['artificial']	dobj	NOUN
+to	['to']	write	[]	aux	PART
+write	['to', 'write', 'pieces', 'of', 'text']	uses	['to', 'pieces']	xcomp	VERB
+pieces	['pieces', 'of', 'text']	write	['of']	dobj	NOUN
+of	['of', 'text']	pieces	['text']	prep	ADP
+text	['text']	of	[]	pobj	NOUN
+.	['.']	looking	[]	punct	PUNCT
+Institutions	['Institutions']	said	[]	nsubj	NOUN
+said	['Institutions', 'said', 'that', 'text', 'written', 'by', 'the', 'program', 'can', 'be', 'classified', 'as', 'academic', 'fraud', ',', 'but', 'it', 'is', 'still', 'difficult', 'to', 'prove']	told	['Institutions', 'classified', ',', 'but', 'is']	ccomp	VERB
+that	['that']	classified	[]	mark	SCONJ
+text	['text', 'written', 'by', 'the', 'program']	classified	['written']	nsubjpass	NOUN
+written	['written', 'by', 'the', 'program']	text	['by']	acl	VERB
+by	['by', 'the', 'program']	written	['program']	agent	ADP
+the	['the']	program	[]	det	DET
+program	['the', 'program']	by	['the']	pobj	NOUN
+can	['can']	classified	[]	aux	AUX
+be	['be']	classified	[]	auxpass	AUX
+classified	['that', 'text', 'written', 'by', 'the', 'program', 'can', 'be', 'classified', 'as', 'academic', 'fraud']	said	['that', 'text', 'can', 'be', 'as']	ccomp	VERB
+as	['as', 'academic', 'fraud']	classified	['fraud']	prep	ADP
+academic	['academic']	fraud	[]	amod	ADJ
+fraud	['academic', 'fraud']	as	['academic']	pobj	NOUN
+,	[',']	said	[]	punct	PUNCT
+but	['but']	said	[]	cc	CCONJ
+it	['it']	is	[]	nsubj	PRON
+is	['it', 'is', 'still', 'difficult', 'to', 'prove']	said	['it', 'still', 'difficult']	conj	AUX
+still	['still']	is	[]	advmod	ADV
+difficult	['difficult', 'to', 'prove']	is	['prove']	acomp	ADJ
+to	['to']	prove	[]	aux	PART
+prove	['to', 'prove']	difficult	['to']	xcomp	VERB
+,	[',']	told	[]	punct	PUNCT
+representatives	['representatives', 'of', 'several', 'universities']	told	['of']	nsubj	NOUN
+of	['of', 'several', 'universities']	representatives	['universities']	prep	ADP
+several	['several']	universities	[]	amod	ADJ
+universities	['several', 'universities']	of	['several']	pobj	NOUN
+told	['Institutions', 'said', 'that', 'text', 'written', 'by', 'the', 'program', 'can', 'be', 'classified', 'as', 'academic', 'fraud', ',', 'but', 'it', 'is', 'still', 'difficult', 'to', 'prove', ',', 'representatives', 'of', 'several', 'universities', 'told', 'ANP', '.']	told	['said', ',', 'representatives', 'ANP', '.']	ROOT	VERB
+ANP	['ANP']	told	[]	dobj	PROPN
+.	['.']	told	[]	punct	PUNCT
+If	['If']	written	[]	mark	SCONJ
+students	['students']	written	[]	nsubj	NOUN
+have	['have']	written	[]	aux	AUX
+not	['not']	written	[]	neg	PART
+written	['If', 'students', 'have', 'not', 'written', 'something', 'themselves']	allowed	['If', 'students', 'have', 'not', 'something']	advcl	VERB
+something	['something', 'themselves']	written	['themselves']	dobj	PRON
+themselves	['themselves']	something	[]	appos	PRON
+,	[',']	allowed	[]	punct	PUNCT
+they	['they']	allowed	[]	nsubjpass	PRON
+are	['are']	allowed	[]	auxpass	AUX
+not	['not']	allowed	[]	neg	PART
+allowed	['If', 'students', 'have', 'not', 'written', 'something', 'themselves', ',', 'they', 'are', 'not', 'allowed', 'to', 'present', 'it', 'as', 'self', '-', 'made', 'work']	explained	['written', ',', 'they', 'are', 'not', 'present']	ccomp	VERB
+to	['to']	present	[]	aux	PART
+present	['to', 'present', 'it', 'as', 'self', '-', 'made', 'work']	allowed	['to', 'it', 'as']	xcomp	VERB
+it	['it']	present	[]	dobj	PRON
+as	['as', 'self', '-', 'made', 'work']	present	['work']	prep	ADP
+self	['self']	made	[]	npadvmod	NOUN
+-	['-']	made	[]	punct	PUNCT
+made	['self', '-', 'made']	work	['self', '-']	amod	VERB
+work	['self', '-', 'made', 'work']	as	['made']	pobj	NOUN
+,	[',']	explained	[]	punct	PUNCT
+explained	['If', 'students', 'have', 'not', 'written', 'something', 'themselves', ',', 'they', 'are', 'not', 'allowed', 'to', 'present', 'it', 'as', 'self', '-', 'made', 'work', ',', 'explained', 'the', 'University', 'of', 'Twente', '.']	explained	['allowed', ',', 'University', '.']	ROOT	VERB
+the	['the']	University	[]	det	DET
+University	['the', 'University', 'of', 'Twente']	explained	['the', 'of']	nsubj	PROPN
+of	['of', 'Twente']	University	['Twente']	prep	ADP
+Twente	['Twente']	of	[]	pobj	PROPN
+.	['.']	explained	[]	punct	PUNCT
+But	['But']	seen	[]	cc	CCONJ
+even	['even']	is	[]	advmod	ADV
+if	['if']	is	[]	mark	SCONJ
+a	['a']	student	[]	det	DET
+student	['a', 'student']	is	['a']	nsubj	NOUN
+is	['even', 'if', 'a', 'student', 'is', 'honest', 'about', 'it']	seen	['even', 'if', 'student', 'honest']	advcl	AUX
+honest	['honest', 'about', 'it']	is	['about']	acomp	ADJ
+about	['about', 'it']	honest	['it']	prep	ADP
+it	['it']	about	[]	pobj	PRON
+,	[',']	seen	[]	punct	PUNCT
+the	['the']	use	[]	det	DET
+use	['the', 'use', 'of', 'ChatGPT']	seen	['the', 'of']	nsubjpass	NOUN
+of	['of', 'ChatGPT']	use	['ChatGPT']	prep	ADP
+ChatGPT	['ChatGPT']	of	[]	pobj	PROPN
+can	['can']	seen	[]	aux	AUX
+be	['be']	seen	[]	auxpass	AUX
+seen	['But', 'even', 'if', 'a', 'student', 'is', 'honest', 'about', 'it', ',', 'the', 'use', 'of', 'ChatGPT', 'can', 'be', 'seen', 'as', 'fraud', ',', 'according', 'to', 'Maastricht', 'University', '.']	seen	['But', 'is', ',', 'use', 'can', 'be', 'as', ',', 'according', '.']	ROOT	VERB
+as	['as', 'fraud']	seen	['fraud']	prep	ADP
+fraud	['fraud']	as	[]	pobj	NOUN
+,	[',']	seen	[]	punct	PUNCT
+according	['according', 'to', 'Maastricht', 'University']	seen	['to']	prep	VERB
+to	['to', 'Maastricht', 'University']	according	['University']	prep	ADP
+Maastricht	['Maastricht']	University	[]	compound	PROPN
+University	['Maastricht', 'University']	to	['Maastricht']	pobj	PROPN
+.	['.']	seen	[]	punct	PUNCT
+This	['This']	is	[]	nsubj	PRON
+is	"['This', 'is', 'the', 'case', 'when', 'the', 'use', 'of', 'ChatGPT', 'makes', 'it', 'impossible', 'to', 'assess', 'the', 'student', ""'s"", 'skills', '.']"	is	['This', 'case', 'makes', '.']	ROOT	AUX
+the	['the']	case	[]	det	DET
+case	['the', 'case']	is	['the']	attr	NOUN
+when	['when']	makes	[]	advmod	SCONJ
+the	['the']	use	[]	det	DET
+use	['the', 'use', 'of', 'ChatGPT']	makes	['the', 'of']	nsubj	NOUN
+of	['of', 'ChatGPT']	use	['ChatGPT']	prep	ADP
+ChatGPT	['ChatGPT']	of	[]	pobj	PROPN
+makes	"['when', 'the', 'use', 'of', 'ChatGPT', 'makes', 'it', 'impossible', 'to', 'assess', 'the', 'student', ""'s"", 'skills']"	is	['when', 'use', 'impossible']	advcl	VERB
+it	['it']	impossible	[]	nsubj	PRON
+impossible	"['it', 'impossible', 'to', 'assess', 'the', 'student', ""'s"", 'skills']"	makes	['it', 'assess']	ccomp	ADJ
+to	['to']	assess	[]	aux	PART
+assess	"['to', 'assess', 'the', 'student', ""'s"", 'skills']"	impossible	['to', 'skills']	advcl	VERB
+the	['the']	student	[]	det	DET
+student	"['the', 'student', ""'s""]"	skills	"['the', ""'s""]"	poss	NOUN
+'s	"[""'s""]"	student	[]	case	PART
+skills	"['the', 'student', ""'s"", 'skills']"	assess	['student']	dobj	NOUN
+.	['.']	is	[]	punct	PUNCT
+Universities	['Universities']	check	[]	nsubj	NOUN
+check	['Universities', 'check', 'student', 'text', 'for', 'signs', 'of', 'that', 'work', 'was', 'copied', 'from', 'another', 'without', 'properly', 'referencing', 'the', 'source', '.']	check	['Universities', 'text', 'copied', '.']	ROOT	VERB
+student	['student']	text	[]	compound	NOUN
+text	['student', 'text', 'for', 'signs', 'of', 'that', 'work']	check	['student', 'for']	dobj	NOUN
+for	['for', 'signs', 'of', 'that', 'work']	text	['signs']	prep	ADP
+signs	['signs', 'of', 'that', 'work']	for	['of']	pobj	NOUN
+of	['of', 'that', 'work']	signs	['work']	prep	ADP
+that	['that']	work	[]	det	DET
+work	['that', 'work']	of	['that']	pobj	NOUN
+was	['was']	copied	[]	auxpass	AUX
+copied	['was', 'copied', 'from', 'another', 'without', 'properly', 'referencing', 'the', 'source']	check	['was', 'from', 'without']	conj	VERB
+from	['from', 'another']	copied	['another']	prep	ADP
+another	['another']	from	[]	pobj	PRON
+without	['without', 'properly', 'referencing', 'the', 'source']	copied	['referencing']	prep	ADP
+properly	['properly']	referencing	[]	advmod	ADV
+referencing	['properly', 'referencing', 'the', 'source']	without	['properly', 'source']	pcomp	VERB
+the	['the']	source	[]	det	DET
+source	['the', 'source']	referencing	['the']	dobj	NOUN
+.	['.']	check	[]	punct	PUNCT
+However	['However']	produce	[]	advmod	ADV
+,	[',']	produce	[]	punct	PUNCT
+ChatGPT	['ChatGPT']	produce	[]	nsubj	PROPN
+can	['can']	produce	[]	aux	AUX
+produce	['However', ',', 'ChatGPT', 'can', 'produce', 'text', 'including', 'source', 'references', ',', 'so', 'such', 'plagiarism', 'checks', 'are', 'insufficient', '.']	produce	['However', ',', 'ChatGPT', 'can', 'text', ',', 'are', '.']	ROOT	VERB
+text	['text', 'including', 'source', 'references']	produce	['including']	dobj	NOUN
+including	['including', 'source', 'references']	text	['references']	prep	VERB
+source	['source']	references	[]	compound	NOUN
+references	['source', 'references']	including	['source']	pobj	NOUN
+,	[',']	produce	[]	punct	PUNCT
+so	['so']	are	[]	mark	SCONJ
+such	['such']	checks	[]	amod	ADJ
+plagiarism	['plagiarism']	checks	[]	compound	NOUN
+checks	['such', 'plagiarism', 'checks']	are	['such', 'plagiarism']	nsubj	NOUN
+are	['so', 'such', 'plagiarism', 'checks', 'are', 'insufficient']	produce	['so', 'checks', 'insufficient']	advcl	AUX
+insufficient	['insufficient']	are	[]	acomp	ADJ
+.	['.']	produce	[]	punct	PUNCT
+Educational	['Educational']	institutions	[]	amod	ADJ
+institutions	['Educational', 'institutions']	looking	['Educational']	nsubj	NOUN
+are	['are']	looking	[]	aux	AUX
+now	['now']	looking	[]	advmod	ADV
+looking	['Educational', 'institutions', 'are', 'now', 'looking', 'for', 'new', 'solutions', '.']	looking	['institutions', 'are', 'now', 'for', '.']	ROOT	VERB
+for	['for', 'new', 'solutions']	looking	['solutions']	prep	ADP
+new	['new']	solutions	[]	amod	ADJ
+solutions	['new', 'solutions']	for	['new']	pobj	NOUN
+.	['.']	looking	[]	punct	PUNCT
+One	['One']	possibility	[]	nummod	NUM
+possibility	['One', 'possibility', 'to', 'prevent', 'the', 'use', 'of', 'ChatGPT']	is	['One', 'prevent']	nsubj	NOUN
+to	['to']	prevent	[]	aux	PART
+prevent	['to', 'prevent', 'the', 'use', 'of', 'ChatGPT']	possibility	['to', 'use']	acl	VERB
+the	['the']	use	[]	det	DET
+use	['the', 'use', 'of', 'ChatGPT']	prevent	['the', 'of']	dobj	NOUN
+of	['of', 'ChatGPT']	use	['ChatGPT']	prep	ADP
+ChatGPT	['ChatGPT']	of	[]	pobj	PROPN
+is	['One', 'possibility', 'to', 'prevent', 'the', 'use', 'of', 'ChatGPT', 'is', 'to', 'have', 'students', 'explain', 'their', 'work']	said	['possibility', 'have']	ccomp	AUX
+to	['to']	have	[]	aux	PART
+have	['to', 'have', 'students', 'explain', 'their', 'work']	is	['to', 'explain']	xcomp	VERB
+students	['students']	explain	[]	nsubj	NOUN
+explain	['students', 'explain', 'their', 'work']	have	['students', 'work']	ccomp	VERB
+their	['their']	work	[]	poss	PRON
+work	['their', 'work']	explain	['their']	dobj	NOUN
+,	[',']	said	[]	punct	PUNCT
+said	['One', 'possibility', 'to', 'prevent', 'the', 'use', 'of', 'ChatGPT', 'is', 'to', 'have', 'students', 'explain', 'their', 'work', ',', 'said', 'Utrecht', 'University', '.']	said	['is', ',', 'University', '.']	ROOT	VERB
+Utrecht	['Utrecht']	University	[]	compound	PROPN
+University	['Utrecht', 'University']	said	['Utrecht']	nsubj	PROPN
+.	['.']	said	[]	punct	PUNCT
+Their	['Their']	reasoning	[]	poss	PRON
+reasoning	['Their', 'reasoning']	is	['Their']	nsubj	NOUN
+is	['Their', 'reasoning', 'is', 'that', 'having', 'the', 'student', 'describe', 'how', 'they', 'arrived', 'at', 'a', 'certain', 'point', 'of', 'view', 'becomes', 'more', 'difficult', 'when', 'artificial', 'intelligence', 'wrote', 'the', 'piece', '.']	is	['reasoning', 'becomes', '.']	ROOT	AUX
+that	['that']	becomes	[]	mark	SCONJ
+having	['having', 'the', 'student', 'describe', 'how', 'they', 'arrived', 'at', 'a', 'certain', 'point', 'of', 'view']	becomes	['describe', 'arrived']	csubj	VERB
+the	['the']	student	[]	det	DET
+student	['the', 'student']	describe	['the']	nsubj	NOUN
+describe	['the', 'student', 'describe']	having	['student']	ccomp	VERB
+how	['how']	arrived	[]	advmod	SCONJ
+they	['they']	arrived	[]	nsubj	PRON
+arrived	['how', 'they', 'arrived', 'at', 'a', 'certain', 'point', 'of', 'view']	having	['how', 'they', 'at']	ccomp	VERB
+at	['at', 'a', 'certain', 'point', 'of', 'view']	arrived	['point']	prep	ADP
+a	['a']	point	[]	det	DET
+certain	['certain']	point	[]	amod	ADJ
+point	['a', 'certain', 'point', 'of', 'view']	at	['a', 'certain', 'of']	pobj	NOUN
+of	['of', 'view']	point	['view']	prep	ADP
+view	['view']	of	[]	pobj	NOUN
+becomes	['that', 'having', 'the', 'student', 'describe', 'how', 'they', 'arrived', 'at', 'a', 'certain', 'point', 'of', 'view', 'becomes', 'more', 'difficult', 'when', 'artificial', 'intelligence', 'wrote', 'the', 'piece']	is	['that', 'having', 'difficult', 'wrote']	ccomp	VERB
+more	['more']	difficult	[]	advmod	ADV
+difficult	['more', 'difficult']	becomes	['more']	acomp	ADJ
+when	['when']	wrote	[]	advmod	SCONJ
+artificial	['artificial']	intelligence	[]	amod	ADJ
+intelligence	['artificial', 'intelligence']	wrote	['artificial']	nsubj	NOUN
+wrote	['when', 'artificial', 'intelligence', 'wrote', 'the', 'piece']	becomes	['when', 'intelligence', 'piece']	advcl	VERB
+the	['the']	piece	[]	det	DET
+piece	['the', 'piece']	wrote	['the']	dobj	NOUN
+.	['.']	is	[]	punct	PUNCT
+Nyenrode	['Nyenrode']	University	[]	compound	PROPN
+Business	['Business']	University	[]	compound	PROPN
+University	['Nyenrode', 'Business', 'University']	suggested	['Nyenrode', 'Business']	nsubj	PROPN
+also	['also']	suggested	[]	advmod	ADV
+suggested	['Nyenrode', 'Business', 'University', 'also', 'suggested', 'testing', 'under', 'surveillance', 'as', 'an', 'option', '.']	suggested	['University', 'also', 'testing', '.']	ROOT	VERB
+testing	['testing', 'under', 'surveillance', 'as', 'an', 'option']	suggested	['under']	xcomp	VERB
+under	['under', 'surveillance', 'as', 'an', 'option']	testing	['surveillance']	prep	ADP
+surveillance	['surveillance', 'as', 'an', 'option']	under	['as']	pobj	NOUN
+as	['as', 'an', 'option']	surveillance	['option']	prep	ADP
+an	['an']	option	[]	det	DET
+option	['an', 'option']	as	['an']	pobj	NOUN
+.	['.']	suggested	[]	punct	PUNCT
+Another	['Another']	possibility	[]	det	DET
+possibility	['Another', 'possibility']	is	['Another']	nsubj	NOUN
+is	['Another', 'possibility', 'is', 'to', 'ask', 'students', 'to', 'include', 'very', 'recent', 'sources', 'in', 'their', 'work', ',', 'because', 'ChatGPT', 'may', 'not', 'have', 'become', 'aware', 'of', 'them', '.']	is	['possibility', 'ask', '.']	ROOT	AUX
+to	['to']	ask	[]	aux	PART
+ask	['to', 'ask', 'students', 'to', 'include', 'very', 'recent', 'sources', 'in', 'their', 'work', ',', 'because', 'ChatGPT', 'may', 'not', 'have', 'become', 'aware', 'of', 'them']	is	['to', 'students', 'include', ',', 'become']	xcomp	VERB
+students	['students']	ask	[]	dobj	NOUN
+to	['to']	include	[]	aux	PART
+include	['to', 'include', 'very', 'recent', 'sources', 'in', 'their', 'work']	ask	['to', 'sources']	xcomp	VERB
+very	['very']	recent	[]	advmod	ADV
+recent	['very', 'recent']	sources	['very']	amod	ADJ
+sources	['very', 'recent', 'sources', 'in', 'their', 'work']	include	['recent', 'in']	dobj	NOUN
+in	['in', 'their', 'work']	sources	['work']	prep	ADP
+their	['their']	work	[]	poss	PRON
+work	['their', 'work']	in	['their']	pobj	NOUN
+,	[',']	ask	[]	punct	PUNCT
+because	['because']	become	[]	mark	SCONJ
+ChatGPT	['ChatGPT']	become	[]	nsubj	PROPN
+may	['may']	become	[]	aux	AUX
+not	['not']	become	[]	neg	PART
+have	['have']	become	[]	aux	AUX
+become	['because', 'ChatGPT', 'may', 'not', 'have', 'become', 'aware', 'of', 'them']	ask	['because', 'ChatGPT', 'may', 'not', 'have', 'aware']	advcl	VERB
+aware	['aware', 'of', 'them']	become	['of']	acomp	ADJ
+of	['of', 'them']	aware	['them']	prep	ADP
+them	['them']	of	[]	pobj	PRON
+.	['.']	is	[]	punct	PUNCT
+It	['It']	help	[]	nsubj	PRON
+can	['can']	help	[]	aux	AUX
+also	['also']	help	[]	advmod	ADV
+help	['It', 'can', 'also', 'help', 'to', 'ask', 'students', 'to', 'formulate', 'certain', 'answers', 'in', 'a', 'specific', 'way']	indicated	['It', 'can', 'also', 'ask']	ccomp	VERB
+to	['to']	ask	[]	aux	PART
+ask	['to', 'ask', 'students', 'to', 'formulate', 'certain', 'answers', 'in', 'a', 'specific', 'way']	help	['to', 'students', 'formulate']	xcomp	VERB
+students	['students']	ask	[]	dobj	NOUN
+to	['to']	formulate	[]	aux	PART
+formulate	['to', 'formulate', 'certain', 'answers', 'in', 'a', 'specific', 'way']	ask	['to', 'answers', 'in']	xcomp	VERB
+certain	['certain']	answers	[]	amod	ADJ
+answers	['certain', 'answers']	formulate	['certain']	dobj	NOUN
+in	['in', 'a', 'specific', 'way']	formulate	['way']	prep	ADP
+a	['a']	way	[]	det	DET
+specific	['specific']	way	[]	amod	ADJ
+way	['a', 'specific', 'way']	in	['a', 'specific']	pobj	NOUN
+,	[',']	indicated	[]	punct	PUNCT
+some	['some']	universities	[]	det	DET
+universities	['some', 'universities']	indicated	['some']	nsubj	NOUN
+indicated	['It', 'can', 'also', 'help', 'to', 'ask', 'students', 'to', 'formulate', 'certain', 'answers', 'in', 'a', 'specific', 'way', ',', 'some', 'universities', 'indicated', '.']	indicated	['help', ',', 'universities', '.']	ROOT	VERB
+.	['.']	indicated	[]	punct	PUNCT
+The	['The']	creator	[]	det	DET
+creator	['The', 'creator', 'of', 'ChatGPT']	developed	['The', 'of']	nsubj	NOUN
+of	['of', 'ChatGPT']	creator	['ChatGPT']	prep	ADP
+ChatGPT	['ChatGPT']	of	[]	pobj	PROPN
+has	['has']	developed	[]	aux	AUX
+also	['also']	developed	[]	advmod	ADV
+developed	['The', 'creator', 'of', 'ChatGPT', 'has', 'also', 'developed', 'a', 'program', 'that', 'can', 'recognize', 'text', 'generated', 'by', 'their', 'AI', '.']	developed	['creator', 'has', 'also', 'program', '.']	ROOT	VERB
+a	['a']	program	[]	det	DET
+program	['a', 'program', 'that', 'can', 'recognize', 'text', 'generated', 'by', 'their', 'AI']	developed	['a', 'recognize']	dobj	NOUN
+that	['that']	recognize	[]	nsubj	PRON
+can	['can']	recognize	[]	aux	AUX
+recognize	['that', 'can', 'recognize', 'text', 'generated', 'by', 'their', 'AI']	program	['that', 'can', 'text']	relcl	VERB
+text	['text', 'generated', 'by', 'their', 'AI']	recognize	['generated']	dobj	NOUN
+generated	['generated', 'by', 'their', 'AI']	text	['by']	acl	VERB
+by	['by', 'their', 'AI']	generated	['AI']	agent	ADP
+their	['their']	AI	[]	poss	PRON
+AI	['their', 'AI']	by	['their']	pobj	PROPN
+.	['.']	developed	[]	punct	PUNCT
+The	['The']	University	[]	det	DET
+University	['The', 'University', 'of', 'Twente']	said	['The', 'of']	nsubj	PROPN
+of	['of', 'Twente']	University	['Twente']	prep	ADP
+Twente	['Twente']	of	[]	pobj	PROPN
+said	"['The', 'University', 'of', 'Twente', 'said', 'it', 'does', 'not', 'yet', 'fully', 'trust', 'such', 'software', 'and', 'that', 'recognizing', 'text', 'formulated', 'by', 'AI', 'is', 'really', '""', 'the', 'beginning', '""', 'of', 'a', 'conversation', 'with', 'a', 'student', ',', '""', 'never', 'the', 'completion', '.', '""']"	said	"['University', 'trust', '.', '""']"	ROOT	VERB
+it	['it']	trust	[]	nsubj	PRON
+does	['does']	trust	[]	aux	AUX
+not	['not']	trust	[]	neg	PART
+yet	['yet']	trust	[]	advmod	ADV
+fully	['fully']	trust	[]	advmod	ADV
+trust	"['it', 'does', 'not', 'yet', 'fully', 'trust', 'such', 'software', 'and', 'that', 'recognizing', 'text', 'formulated', 'by', 'AI', 'is', 'really', '""', 'the', 'beginning', '""', 'of', 'a', 'conversation', 'with', 'a', 'student', ',', '""', 'never', 'the', 'completion']"	said	['it', 'does', 'not', 'yet', 'fully', 'software', 'and', 'is']	ccomp	VERB
+such	['such']	software	[]	amod	ADJ
+software	['such', 'software']	trust	['such']	dobj	NOUN
+and	['and']	trust	[]	cc	CCONJ
+that	['that']	is	[]	mark	SCONJ
+recognizing	['recognizing']	text	[]	amod	VERB
+text	['recognizing', 'text', 'formulated', 'by', 'AI']	is	['recognizing', 'formulated']	nsubj	NOUN
+formulated	['formulated', 'by', 'AI']	text	['by']	acl	VERB
+by	['by', 'AI']	formulated	['AI']	agent	ADP
+AI	['AI']	by	[]	pobj	PROPN
+is	"['that', 'recognizing', 'text', 'formulated', 'by', 'AI', 'is', 'really', '""', 'the', 'beginning', '""', 'of', 'a', 'conversation', 'with', 'a', 'student', ',', '""', 'never', 'the', 'completion']"	trust	['that', 'text', 'really', 'beginning']	conj	AUX
+really	['really']	is	[]	advmod	ADV
+""""	"['""']"	beginning	[]	punct	PUNCT
+the	['the']	beginning	[]	det	DET
+beginning	"['""', 'the', 'beginning', '""', 'of', 'a', 'conversation', 'with', 'a', 'student', ',', '""', 'never', 'the', 'completion']"	is	"['""', 'the', '""', 'of', ',', '""', 'never', 'completion']"	attr	NOUN
+""""	"['""']"	beginning	[]	punct	PUNCT
+of	['of', 'a', 'conversation', 'with', 'a', 'student']	beginning	['conversation']	prep	ADP
+a	['a']	conversation	[]	det	DET
+conversation	['a', 'conversation', 'with', 'a', 'student']	of	['a', 'with']	pobj	NOUN
+with	['with', 'a', 'student']	conversation	['student']	prep	ADP
+a	['a']	student	[]	det	DET
+student	['a', 'student']	with	['a']	pobj	NOUN
+,	[',']	beginning	[]	punct	PUNCT
+""""	"['""']"	beginning	[]	punct	PUNCT
+never	['never']	beginning	[]	neg	ADV
+the	['the']	completion	[]	det	DET
+completion	['the', 'completion']	beginning	['the']	appos	NOUN
+.	['.']	said	[]	punct	PUNCT
+""""	"['""']"	said	[]	punct	PUNCT
+Several	['Several']	universities	[]	amod	ADJ
+universities	['Several', 'universities']	emphasized	['Several']	nsubj	NOUN
+also	['also']	emphasized	[]	advmod	ADV
+emphasized	['Several', 'universities', 'also', 'emphasized', 'that', 'AI', 'can', 'also', 'make', 'a', 'positive', 'contribution', 'to', 'education', '.']	emphasized	['universities', 'also', 'make', '.']	ROOT	VERB
+that	['that']	make	[]	mark	SCONJ
+AI	['AI']	make	[]	nsubj	PROPN
+can	['can']	make	[]	aux	AUX
+also	['also']	make	[]	advmod	ADV
+make	['that', 'AI', 'can', 'also', 'make', 'a', 'positive', 'contribution', 'to', 'education']	emphasized	['that', 'AI', 'can', 'also', 'contribution']	ccomp	VERB
+a	['a']	contribution	[]	det	DET
+positive	['positive']	contribution	[]	amod	ADJ
+contribution	['a', 'positive', 'contribution', 'to', 'education']	make	['a', 'positive', 'to']	dobj	NOUN
+to	['to', 'education']	contribution	['education']	prep	ADP
+education	['education']	to	[]	pobj	NOUN
+.	['.']	emphasized	[]	punct	PUNCT
+Tilburg	['Tilburg']	University	[]	compound	PROPN
+University	['Tilburg', 'University']	noted	['Tilburg']	nsubj	PROPN
+noted	['Tilburg', 'University', 'noted', 'the', 'possible', 'opportunities', ',', 'and', 'the', 'University', 'of', 'Amsterdam', 'saw', 'potential', 'in', 'the', 'software', '.']	noted	['University', 'opportunities', ',', 'and', 'saw', '.']	ROOT	VERB
+the	['the']	opportunities	[]	det	DET
+possible	['possible']	opportunities	[]	amod	ADJ
+opportunities	['the', 'possible', 'opportunities']	noted	['the', 'possible']	dobj	NOUN
+,	[',']	noted	[]	punct	PUNCT
+and	['and']	noted	[]	cc	CCONJ
+the	['the']	University	[]	det	DET
+University	['the', 'University', 'of', 'Amsterdam']	saw	['the', 'of']	nsubj	PROPN
+of	['of', 'Amsterdam']	University	['Amsterdam']	prep	ADP
+Amsterdam	['Amsterdam']	of	[]	pobj	PROPN
+saw	['the', 'University', 'of', 'Amsterdam', 'saw', 'potential', 'in', 'the', 'software']	noted	['University', 'potential', 'in']	conj	VERB
+potential	['potential']	saw	[]	dobj	ADJ
+in	['in', 'the', 'software']	saw	['software']	prep	ADP
+the	['the']	software	[]	det	DET
+software	['the', 'software']	in	['the']	pobj	NOUN
+.	['.']	noted	[]	punct	PUNCT
+The	['The']	University	[]	det	DET
+Protestant	['Protestant']	University	[]	compound	PROPN
+Theological	['Theological']	University	[]	compound	PROPN
+University	['The', 'Protestant', 'Theological', 'University']	wondered	['The', 'Protestant', 'Theological']	nsubj	PROPN
+wondered	"['The', 'Protestant', 'Theological', 'University', 'wondered', '""', 'whether', 'there', 'are', 'applications', 'of', 'ChatGPT', 'that', 'are', 'not', 'fraudulent', 'but', 'rather', 'helpful', 'in', 'education', '.', '""']"	wondered	"['University', '""', 'are', '.', '""']"	ROOT	VERB
+""""	"['""']"	wondered	[]	punct	PUNCT
+whether	['whether']	are	[]	mark	SCONJ
+there	['there']	are	[]	expl	PRON
+are	['whether', 'there', 'are', 'applications', 'of', 'ChatGPT', 'that', 'are', 'not', 'fraudulent', 'but', 'rather', 'helpful', 'in', 'education']	wondered	['whether', 'there', 'applications']	ccomp	VERB
+applications	['applications', 'of', 'ChatGPT', 'that', 'are', 'not', 'fraudulent', 'but', 'rather', 'helpful', 'in', 'education']	are	['of']	attr	NOUN
+of	['of', 'ChatGPT', 'that', 'are', 'not', 'fraudulent', 'but', 'rather', 'helpful', 'in', 'education']	applications	['ChatGPT']	prep	ADP
+ChatGPT	['ChatGPT', 'that', 'are', 'not', 'fraudulent', 'but', 'rather', 'helpful', 'in', 'education']	of	['are']	pobj	PROPN
+that	['that']	are	[]	nsubj	PRON
+are	['that', 'are', 'not', 'fraudulent', 'but', 'rather', 'helpful', 'in', 'education']	ChatGPT	['that', 'not', 'fraudulent']	relcl	AUX
+not	['not']	are	[]	neg	PART
+fraudulent	['fraudulent', 'but', 'rather', 'helpful', 'in', 'education']	are	['but', 'helpful']	acomp	ADJ
+but	['but']	fraudulent	[]	cc	CCONJ
+rather	['rather']	helpful	[]	advmod	ADV
+helpful	['rather', 'helpful', 'in', 'education']	fraudulent	['rather', 'in']	conj	ADJ
+in	['in', 'education']	helpful	['education']	prep	ADP
+education	['education']	in	[]	pobj	NOUN
+.	['.']	wondered	[]	punct	PUNCT
+""""	"['""']"	wondered	[]	punct	PUNCT
