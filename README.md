@@ -25,5 +25,5 @@ Token level:
 - Part-of-speech tag of each token
 
 Sentence level:
-- Shortest dependency path of each sentence
-- The length of shortest dependency path of each sentence
+- The shortest dependency path (SDP)
+- The shortest-dependency path length (SDP length)
