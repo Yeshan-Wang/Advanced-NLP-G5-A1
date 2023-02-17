@@ -8,7 +8,7 @@ The code was carried out by Yeshan Wang during the course ‘Advanced NLP' taugh
 - Pandas 1.5
 
 ## Data
-The folder [**data**](https://github.com/Yeshan-Wang/Advanced-NLP-G5-A1/tree/main/data) contains the small set of English data in 'article.txt' is obtained from NL Times (https://nltimes.nl/2023/02/10/dutch-universities-still-struggling-uncover-work-written-chatgpt). All rights reserved.
+The folder [**data**](https://github.com/Yeshan-Wang/Advanced-NLP-G5-A1/tree/main/data) contains the small set of English data in 'article.txt' is obtained from  https://nltimes.nl/2023/02/10/dutch-universities-still-struggling-uncover-work-written-chatgpt
 
 ## Code
 ### feature_extraction.ipynb
